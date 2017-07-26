@@ -1,0 +1,112 @@
+/*body{*/
+    /*width: 800px;*/
+    /*margin: 0 auto;*/
+/*}*/
+
+/*#content{*/
+    /*text-align: center;*/
+/*}*/
+
+/*.font_style {*/
+    /*padding: 5px;*/
+    /*font-size: small;*/
+/*}*/
+
+/*div a{*/
+    /*padding: 5px;*/
+    /*font-size: small;*/
+    /*text-decoration: none;*/
+/*}*/
+
+/*.title_style {*/
+    /*font-size: small;*/
+    /*color: dodgerblue;*/
+    /*margin-top: 5px;*/
+    /*margin-bottom: 5px;*/
+    /*white-space: nowrap;*/
+/*}*/
+
+/*.table_css {*/
+    /*border: 1px solid #aaa;*/
+    /*border-collapse: collapse;*/
+    /*font-size: small;*/
+    /*width: 100%;*/
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+
+/*}*/
+
+/*table.table_css th {*/
+    /*border: 1px solid #aaa;*/
+    /*background-color: #f0f0f0;*/
+    /*text-align: center;*/
+    /*padding: 5px;*/
+/*}*/
+
+/*table.table_css td {*/
+    /*border: 1px solid #aaa;*/
+    /*text-align: center;*/
+    /*padding: 10px;*/
+/*}*/
+
+/*.pro_title {*/
+    /*font-weight: bold;*/
+    /*font-size: small;*/
+/*}*/
+
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+
+#content{
+    text-align: center;
+}
+
+.font_style {
+    padding: 5px;
+    font-size: small;
+}
+
+div a{
+    padding: 5px;
+    font-size: small;
+    text-decoration: none;
+}
+
+.title_style {
+    font-size: small;
+    color: dodgerblue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+}
+
+.table_css {
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+    font-size: small;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+table.table_css th {
+    border: 1px solid #aaa;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 5px;
+}
+
+table.table_css td {
+    border: 1px solid #aaa;
+    text-align: center;
+    padding: 10px;
+}
+
+.pro_title {
+    font-weight: bold;
+    font-size: small;
+}
+

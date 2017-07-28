@@ -2,6 +2,10 @@ body{
     width: 800px;
     margin: 0 auto;
 }
+/**{*/
+    /*margin: 0px;*/
+    /*padding: 0px;*/
+/*}*/
 
 #content{
     text-align: center;
@@ -24,6 +28,7 @@ div a{
     margin-top: 5px;
     margin-bottom: 5px;
     white-space: nowrap;
+    font-weight: bold;
 }
 
 .table_css {
@@ -36,21 +41,49 @@ div a{
 
 }
 
-table.table_css th {
-    border: 1px solid #aaa;
-    background-color: #f0f0f0;
+.trg{
+    background-color: gainsboro;
+}
+
+.table_css th{
+    border: 1px solid gainsboro;
     text-align: center;
     padding: 5px;
 }
 
-table.table_css td {
-    border: 1px solid #aaa;
+.table_css td{
+    border: 1px solid gainsboro;
     text-align: center;
     padding: 10px;
+}
+
+
+
+.pro ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .pro_title {
     font-weight: bold;
     font-size: small;
+    margin-top: 20px;
+}
+.pro_titlej{
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.pro_titlem{
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.pro_width{
+    margin-left: 30px;
 }
 

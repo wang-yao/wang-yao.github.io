@@ -12,9 +12,15 @@
 #content{
     /*text-align: center;*/
 }
-
+.imgwh{
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
+    margin-right: 20px;
+}
 .font_style {
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: small;
 }
 

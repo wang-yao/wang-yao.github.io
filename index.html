@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<div style="margin-bottom: 20px">
+<div id="bcontent">
     <!-- 信息简介 -->
     <div id="content">
         <h5>王瑶</h5>
@@ -73,7 +73,7 @@
     <div class="pro">
         <div class="title_style"><span id="sxtw">项目经验</span><canvas id="chrx" style="height: 2px;background-color: dodgerblue; vertical-align: middle;margin-left: 20px"></canvas></div>
         <script>
-            var fw = window.document.body.offsetWidth;
+            var fw = window.document.getElementById("bcontent").offsetWidth;
             var stw = document.getElementById("stw").offsetWidth;
             var sxtw = document.getElementById("sxtw").offsetWidth;
             document.getElementById("chr").style.width = fw-stw-20+"px";

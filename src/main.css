@@ -1,4 +1,5 @@
-body{
+
+#bcontent{
     width: 800px;
     margin: 0 auto;
 }
@@ -72,18 +73,19 @@ div a{
 }
 .pro_titlej{
     font-weight: bold;
-    font-size: 12px;
+    font-size: small;
     margin-left: 20px;
     margin-top: 10px;
 }
 .pro_titlem{
     font-weight: bold;
-    font-size: 12px;
+    font-size: small;
     margin-left: 20px;
     margin-top: 10px;
 }
 
 .pro_width{
+    font-size: small;
     margin-left: 30px;
 }
 

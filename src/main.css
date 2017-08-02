@@ -18,16 +18,26 @@
     vertical-align: bottom;
     margin-right: 20px;
 }
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/*a:hover{*/
+    /*color:black;*/
+    /*font-weight:bold;*/
+/*}*/
+a:hover{
+    text-decoration:underline;
+    opacity:0.9;
+}
+
 .font_style {
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: small;
-}
-
-div a{
-    padding: 5px;
-    font-size: small;
-    text-decoration: none;
 }
 
 .title_style {

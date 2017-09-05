@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+
     <link href="src/main.css" type="text/css" rel="stylesheet">
     <link href="src/progress.css" type="text/css" rel="stylesheet">
     <title>王瑶的简历</title>
@@ -10,7 +11,25 @@
 <body>
 
 <div id="bcontent">
-    
+
+    <script>
+        var userAgentInfo = navigator.userAgent;
+        var Agents = ["Android", "iPhone",
+            "SymbianOS", "Windows Phone",
+            "iPad", "iPod"];
+        var flag = true;
+        for (var v = 0; v < Agents.length; v++) {
+            if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                flag = false;
+                break;
+            }
+        }
+        if(flag){
+            document.body.style.backgroundImage="url(src/img/b.jpg)";
+        } else {
+
+        }
+    </script>
     
 
     <!-- 信息简介 -->
@@ -341,10 +360,10 @@
             var sxtp = document.getElementById("sxtp").offsetWidth;
 
 
-            document.getElementById("chr").style.width = fw-stw-20+"px";
-            document.getElementById("chrx").style.width = fw-sxtw-20+"px";
-            document.getElementById("chrj").style.width = fw - sxtj -20+"px"
-            document.getElementById("chrp").style.width = fw - sxtp -20+"px"
+            document.getElementById("chr").style.width = fw-stw-60+"px";
+            document.getElementById("chrx").style.width = fw-sxtw-60+"px";
+            document.getElementById("chrj").style.width = fw - sxtj -60+"px"
+            document.getElementById("chrp").style.width = fw - sxtp -60+"px"
 
         </script>
 

@@ -19,6 +19,8 @@ body{
 #content{
     /*text-align: center;*/
 }
+
+
 .imgwh{
     width: 15px;
     height: 15px;
@@ -111,5 +113,11 @@ a:hover{
 .pro_width{
     font-size: small;
     margin-left: 30px;
+}
+
+.pro_label{
+    font-size: small;
+    margin-left: 30px;
+    color: darkred;
 }
 
